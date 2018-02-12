@@ -15,12 +15,13 @@ public class Lab1Activity {
 
 		for (int value : arr) {
 			sum += value;
+
 			if (value < min) {
-								min = value;
-							}
-							if (value > max) {
-								max = value;
-					}
+				min = value;
+			}
+			if (value > max) {
+				max = value;
+			}
 			
 			
 			}
